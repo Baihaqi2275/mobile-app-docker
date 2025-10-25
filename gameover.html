@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="over-bg">
+    <div class="over-container">
+        <h1>💀 Game Over!</h1>
+        <div class="btn-group">
+            <a href="{{ url_for('game') }}" class="btn">🔁 Coba Lagi</a>
+            <a href="{{ url_for('home') }}" class="btn">🏠 Kembali ke Home</a>
+        </div>
+    </div>
+</body>
+</html>

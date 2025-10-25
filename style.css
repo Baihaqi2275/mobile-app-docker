@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-bg {
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    color: white;
+}
+
+.game-bg {
+    background: #388E3C;
+    color: white;
+}
+
+.over-bg {
+    background: linear-gradient(135deg, #8BC34A, #558B2F);
+    color: white;
+}
+
+.home-container, .game-container, .over-container {
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+canvas {
+    background: #1B5E20;
+    border: 5px solid #A5D6A7;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: white;
+    color: #2E7D32;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #C8E6C9;
+    transform: scale(1.05);
+}
+
+.btn.small {
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

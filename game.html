@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="game-bg">
+    <div class="game-container">
+        <h2>🐍 Ayo Main!</h2>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="controls">
+            <a href="{{ url_for('home') }}" class="btn small">🏠 Home</a>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
